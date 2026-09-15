@@ -1579,13 +1579,26 @@ textarea {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: var(--red);
+  background: var(--red); /* Fallback */
   color: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
   flex-shrink: 0;
+}
+
+/* Brand colors for contact icons */
+#contact-call .cm-icon {
+  background: #007bff; /* Phone Blue */
+}
+
+#contact-wa .cm-icon {
+  background: #25d366; /* WhatsApp Green */
+}
+
+#contact-visit .cm-icon {
+  background: #ea4335; /* Location Red */
 }
 
 .contact-method .cm-text {
