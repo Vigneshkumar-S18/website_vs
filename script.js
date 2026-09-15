@@ -40,6 +40,10 @@ const vehicleData = {
     'Duke 125', 'Duke 200', 'Duke 250', 'Duke 390',
     'RC 125', 'RC 200', 'RC 390',
     'Adventure 250', 'Adventure 390'
+  ],
+  yamaha: [
+    'MT-15 V2', 'R15 V4', 'FZ-S FI', 'FZ FI', 'FZ-X',
+    'RayZR 125', 'Fascino 125', 'Aerox 155'
   ]
 };
 
