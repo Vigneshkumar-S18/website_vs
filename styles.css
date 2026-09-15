@@ -1459,12 +1459,25 @@ textarea {
 }
 
 .showroom-actions .btn {
-  flex: 1;
-  padding: 8px 10px;
-  font-size: var(--fs-xs);
+  flex: 1 1 auto;
+  padding: 8px 12px;
+  font-size: 13px;
   border-radius: var(--radius-sm);
   min-width: 0;
-  gap: 4px;
+  gap: 6px;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.showroom-actions .btn img.btn-icon-custom {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--white);
+  padding: 1px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  flex-shrink: 0;
 }
 
 /* Map Section */
